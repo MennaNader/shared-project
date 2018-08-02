@@ -39,7 +39,7 @@ module.exports = {
 				})
 			},
 			{
-				test: /\.(jpe?g|png|gif|svg|ico)$/i,
+				test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg)$/i,
 				loaders: ["url-loader", "img-loader"]
 			},
 		]
